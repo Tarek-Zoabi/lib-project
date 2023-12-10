@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.Library;
 
+import java.security.InvalidParameterException;
 import java.util.Scanner;
 
 public class Prompt {
@@ -195,15 +196,19 @@ public class Prompt {
 
         switch (command){
             case "add": {
-                String bookId,bookName,author;
-                int numOfPages,yearPubed;
+                String bookId="",bookName="",author="";
+                int numOfPages=0,yearPubed=0;
 
                 System.out.println("Enter Book Id");
                 bookId=sc.next();
                 System.out.println("Enter book name");
                 bookName=sc.next();
+
                 System.out.println("Enter book author");
                 author=sc.next();
+
+
+
                 System.out.println("Enter year published");
                 yearPubed =sc.nextInt();
                 System.out.println("Enter num of pages");
