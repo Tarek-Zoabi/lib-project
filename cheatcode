@@ -1,0 +1,10 @@
+setps:
+    debug:
+           configure debug
+           --------------------------
+    init:
+        changing anmy parameter befoer working with it  prev value will be deleted;
+         --------------------------
+    search for a line in code:
+    ctrl + shift + "F":
+     --------------------------

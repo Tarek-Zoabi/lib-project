@@ -1,0 +1,5 @@
+1,firas,sharary,Worker
+2,tarek,zoabi,Manger
+3,khalil,daibes,Adminstrator
+4,Alaa,Zoabi,Worker
+5,Mohammed,Amin,Manger
